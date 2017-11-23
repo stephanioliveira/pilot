@@ -2,6 +2,13 @@
   "name": "greenphoenix",
   "version": "0.1.0",
   "private": true,
+  "license": "(CC-BY-4.0 OR Apache-2.0)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pagarme/pilot.git"
+  },
+  "homepage": "https://github.com/pagarme/pilot",
+  "bugs": "https://github.com/pagarme/pilot/issues",
   "dependencies": {
     "@percy-io/in-percy": "0.1.9",
     "@percy-io/percy-storybook": "1.2.4",
@@ -83,83 +90,5 @@
     "percy": "build-storybook && percy-storybook --widths=1024,1920",
     "build-storybook": "build-storybook",
     "publish-preview": "storybook-to-ghpages"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}"
-    ],
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
-    "testMatch": [
-      "<rootDir>/src/**/?(*.)(spec|test).js?(x)",
-      "<rootDir>/stories/storyshots.test.js"
-    ],
-    "testEnvironment": "node",
-    "testURL": "http://localhost",
-    "transform": {
-      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
-      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
-    ],
-    "moduleNameMapper": {
-      "^react-native$": "react-native-web"
-    },
-    "moduleFileExtensions": [
-      "web.js",
-      "js",
-      "json",
-      "web.jsx",
-      "jsx",
-      "node"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "pagarme-react",
-    "env": {
-      "browser": true,
-      "jest": true
-    },
-    "rules": {
-      "react/jsx-filename-extension": 0,
-      "css-modules/no-unused-class": [
-        2,
-        {
-          "camelCase": true
-        }
-      ],
-      "css-modules/no-undef-class": [
-        2,
-        {
-          "camelCase": true
-        }
-      ]
-    },
-    "plugins": [
-      "css-modules"
-    ]
-  },
-  "stylelint": {
-    "extends": "stylelint-config-pagarme-react",
-    "rules": {
-      "at-rule-no-unknown": [
-        true,
-        {
-          "ignoreAtRules": [
-            "each",
-            "mixin",
-            "define-mixin"
-          ]
-        }
-      ]
-    }
   }
 }

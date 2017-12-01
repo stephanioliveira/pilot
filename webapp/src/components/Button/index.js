@@ -16,7 +16,6 @@ function Button ({
   type,
   fill,
 }) {
-  console.log(theme)
   const buttonClasses = classNames(
     theme.button,
     theme[fill],

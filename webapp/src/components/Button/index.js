@@ -12,11 +12,11 @@ function Button ({
   disabled,
   onClick,
   size,
+  theme,
   type,
   fill,
-}, context) {
-  const { theme = defaultTheme } = context
-  console.log(context)
+}) {
+  console.log(theme)
   const buttonClasses = classNames(
     theme.button,
     theme[fill],
@@ -37,7 +37,7 @@ function Button ({
   )
 }
 
-Button.contextTypes = {
+Button.propTypes = {
   theme: PropTypes.shape({
     button: PropTypes.string,
     disabled: PropTypes.string,
@@ -56,9 +56,6 @@ Button.contextTypes = {
     default: PropTypes.string,
     large: PropTypes.string,
   }),
-}
-
-Button.propTypes = {
   type: PropTypes.oneOf(['button', 'submit', 'reset']),
   onClick: PropTypes.func,
   fill: PropTypes.oneOf([

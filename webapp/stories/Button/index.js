@@ -130,24 +130,24 @@ storiesOf('Buttons', module)
 
         <h2>Gradient</h2>
         <div className={styles.spacingAround}>
-          <Button variant="gradient">Call to Action</Button>
-          <Button relevance="high" variant="gradient">Call to Action</Button>
+          <Button fill="gradient">Call to Action</Button>
+          <Button relevance="high" fill="gradient">Call to Action</Button>
         </div>
 
         <h2>Outline Button</h2>
 
         <div className={styles.spacingAround}>
-          <Button variant="outline">Call to Action</Button>
-          <Button relevance="high" variant="outline">Call to Action</Button>
-          <Button relevance="low" variant="outline">Call to Action</Button>
+          <Button fill="outline">Call to Action</Button>
+          <Button relevance="high" fill="outline">Call to Action</Button>
+          <Button relevance="low" fill="outline">Call to Action</Button>
         </div>
 
         <h2>Clean Button</h2>
 
         <div className={styles.spacingAround}>
-          <Button variant="clean">Call to Action</Button>
-          <Button relevance="high" variant="clean">Call to Action</Button>
-          <Button relevance="low" variant="clean">Call to Action</Button>
+          <Button fill="clean">Call to Action</Button>
+          <Button relevance="high" fill="clean">Call to Action</Button>
+          <Button relevance="low" fill="clean">Call to Action</Button>
         </div>
 
         <h2>All buttons with icons</h2>
@@ -159,20 +159,20 @@ storiesOf('Buttons', module)
         </div>
 
         <div className={styles.spacingAround}>
-          <Button variant="gradient"><IconAdd />Call to Action</Button>
-          <Button relevance="high" variant="gradient"><IconAdd />Call to Action</Button>
+          <Button fill="gradient"><IconAdd />Call to Action</Button>
+          <Button relevance="high" fill="gradient"><IconAdd />Call to Action</Button>
         </div>
 
         <div className={styles.spacingAround}>
-          <Button variant="outline"><IconAdd />Call to Action</Button>
-          <Button relevance="high" variant="outline"><IconAdd />Call to Action</Button>
-          <Button relevance="low" variant="outline"><IconAdd />Call to Action</Button>
+          <Button fill="outline"><IconAdd />Call to Action</Button>
+          <Button relevance="high" fill="outline"><IconAdd />Call to Action</Button>
+          <Button relevance="low" fill="outline"><IconAdd />Call to Action</Button>
         </div>
 
         <div className={styles.spacingAround}>
-          <Button variant="clean"><IconAdd />Call to Action</Button>
-          <Button relevance="high" variant="clean"><IconAdd />Call to Action</Button>
-          <Button relevance="low" variant="clean"><IconAdd />Call to Action</Button>
+          <Button fill="clean"><IconAdd />Call to Action</Button>
+          <Button relevance="high" fill="clean"><IconAdd />Call to Action</Button>
+          <Button relevance="low" fill="clean"><IconAdd />Call to Action</Button>
         </div>
 
         <h2>Sizes</h2>
@@ -202,20 +202,20 @@ storiesOf('Buttons', module)
         </div>
 
         <div className={styles.spacingAround}>
-          <Button variant="gradient" disabled><IconAdd />Call to Action</Button>
-          <Button relevance="high" variant="gradient" disabled><IconAdd />Call to Action</Button>
+          <Button fill="gradient" disabled><IconAdd />Call to Action</Button>
+          <Button relevance="high" fill="gradient" disabled><IconAdd />Call to Action</Button>
         </div>
 
         <div className={styles.spacingAround}>
-          <Button variant="outline" disabled><IconAdd />Call to Action</Button>
-          <Button relevance="high" variant="outline" disabled><IconAdd />Call to Action</Button>
-          <Button relevance="low" variant="outline" disabled><IconAdd />Call to Action</Button>
+          <Button fill="outline" disabled><IconAdd />Call to Action</Button>
+          <Button relevance="high" fill="outline" disabled><IconAdd />Call to Action</Button>
+          <Button relevance="low" fill="outline" disabled><IconAdd />Call to Action</Button>
         </div>
 
         <div className={styles.spacingAround}>
-          <Button variant="clean" disabled><IconAdd />Call to Action</Button>
-          <Button relevance="high" variant="clean" disabled><IconAdd />Call to Action</Button>
-          <Button relevance="low" variant="clean" disabled><IconAdd />Call to Action</Button>
+          <Button fill="clean" disabled><IconAdd />Call to Action</Button>
+          <Button relevance="high" fill="clean" disabled><IconAdd />Call to Action</Button>
+          <Button relevance="low" fill="clean" disabled><IconAdd />Call to Action</Button>
         </div>
       </div>
     </ThemeProvider>

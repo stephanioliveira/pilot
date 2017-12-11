@@ -4,7 +4,6 @@
 
   --tag-font-size: 12px;
   --tag-padding: 6px 7px;
-  --tag-color: var(--color-light-chromium-100);
-  --tag-border-color: var(--color-light-coal-50);
+  --tag-color: var(--color-light-carbon-100);
+  --tag-border-color: var(--color-light-carbon-100);
 }
-

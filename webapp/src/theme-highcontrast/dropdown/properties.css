@@ -1,4 +1,4 @@
-@import "../../theme-pagarme/colors.css";
+@import "../colors.css";
 
 :root {
   --dropdown-font-family: var(--title-font-family);
@@ -19,7 +19,7 @@
   --dropdown-disabled-option-opacity: 0.6;
   --dropdown-disabled-option-background: none;
 
-  --dropdown-option-selected-color: var(--color-light-blue-100);
+  --dropdown-option-selected-color: var(--color-light-chromium-100);
 
   --dropdown-label-color: var(--color-light-chromium-100);
   --dropdown-label-dropdown-font-size: 12px;

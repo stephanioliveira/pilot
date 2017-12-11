@@ -5,37 +5,28 @@ import {
   func,
   shape,
 } from 'prop-types'
-import shortid from 'shortid'
+
 import { themr } from 'react-css-themr'
 
 const applyThemr = themr('UISegmentedSwitch')
 
-class SegmentedSwitch extends React.PureComponent {
-  constructor (props) {
-    super(props)
-    this.instanceId = `segmented-switch-${shortid.generate()}`
-    this.renderItem = this.renderItem.bind(this)
-  }
-
-  renderItem (item, index) {
-    const {
-      selected,
-      onChange,
-      name,
-      theme,
-    } = this.props
-
-    const id = `${this.instanceId}-${name}-${item}`
-
-    return (
+const SegmentedSwitch = ({
+  items,
+  selected,
+  onChange,
+  name,
+  theme,
+}) => (
+  <div className={theme.contextSwitch}>
+    {items.map((item, index) => (
       <label
-        key={id}
+        key={`context-switch-${name}-label-${item}`}
         className={theme.item}
-        htmlFor={id}
+        htmlFor={`context-switch-${name}-input-${item}`}
       >
         <input
-          id={id}
-          name={id}
+          id={`context-switch-${name}-input-${item}`}
+          name={`context-switch-${name}-input`}
           value={item}
           type="radio"
           checked={selected === item}
@@ -44,26 +35,13 @@ class SegmentedSwitch extends React.PureComponent {
 
         <span className={theme.label}>{item}</span>
       </label>
-    )
-  }
-
-  render () {
-    const {
-      theme,
-      items,
-    } = this.props
-
-    return (
-      <div className={theme.segmentedSwitch}>
-        {items.map(this.renderItem)}
-      </div>
-    )
-  }
-}
+    ))}
+  </div>
+)
 
 SegmentedSwitch.propTypes = {
   theme: shape({
-    segmentedSwitch: string,
+    contextSwitch: string,
     item: string,
     label: string,
   }),
@@ -74,7 +52,6 @@ SegmentedSwitch.propTypes = {
 }
 
 SegmentedSwitch.defaultProps = {
-  theme: {},
   selected: '',
 }
 

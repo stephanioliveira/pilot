@@ -2084,7 +2084,1156 @@ exports[`Storyshots DateSelector All types with defaultTheme 1`] = `
           <label
             htmlFor="dateselector-shortid-mock-preset-today"
           >
+<<<<<<< HEAD
             today
+=======
+            <a
+              className={undefined}
+              onClick={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <div
+                className={undefined}
+              >
+                <h2
+                  className={undefined}
+                >
+                  Title opened
+                  <svg
+                    className="undefined"
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                      Object {
+                        "color": undefined,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                  >
+                    <g>
+                      <path
+                        d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                      />
+                    </g>
+                  </svg>
+                </h2>
+                <p
+                  className={undefined}
+                >
+                  It's over 9000!
+                </p>
+              </div>
+            </a>
+            <div
+              className={undefined}
+            >
+              
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Simple card section
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem title
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <h2
+                className={undefined}
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              
+            </div>
+            <div
+              className={undefined}
+            >
+              
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Storyshots Cards default theme 1`] = `
+<div>
+  <section>
+    <h2>
+      Title and content
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem ipsum dolor sit amet
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Title, icon and content
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": undefined,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em"
+            >
+              <g>
+                <path
+                  d="m31.6 31.6v-18.2h-23.2v18.2h23.2z m-5-30h3.4v3.4h1.6c1.8 0 3.4 1.6 3.4 3.4v23.2c0 1.8-1.6 3.4-3.4 3.4h-23.2c-1.9 0-3.4-1.6-3.4-3.4v-23.2c0-1.8 1.5-3.4 3.4-3.4h1.6v-3.4h3.4v3.4h13.2v-3.4z m1.8 18.4v8.4h-8.4v-8.4h8.4z"
+                />
+              </g>
+            </svg>
+            <h3>
+              Lorem ipsum dolor sit amet
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Title, content and actions
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem ipsum dolor sit amet
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+        <div
+          className=""
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Graphic, title, content and actions
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <img
+            alt="placeholder"
+            src="https://maxicharts.com/wp-content/uploads/2017/07/banner-1544x500.png"
+          />
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem ipsum dolor sit amet
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+        <div
+          className=""
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Title on event handler
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className="undefined"
+          onClick={[Function]}
+          onKeyUp={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Click here and watch the action logger
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+        <div
+          className=""
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Card section with collapsible content
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem title
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className={undefined}
+          >
+            <a
+              className={undefined}
+              onClick={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <div
+                className={undefined}
+              >
+                <h2
+                  className={undefined}
+                >
+                  Title opened
+                  <svg
+                    className="undefined"
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                      Object {
+                        "color": undefined,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                  >
+                    <g>
+                      <path
+                        d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                      />
+                    </g>
+                  </svg>
+                </h2>
+                <p
+                  className={undefined}
+                >
+                  It's over 9000!
+                </p>
+              </div>
+            </a>
+            <div
+              className={undefined}
+            >
+              
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Simple card section
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem title
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <h2
+                className={undefined}
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              
+            </div>
+            <div
+              className={undefined}
+            >
+              
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Storyshots Cards high contrast theme 1`] = `
+<div>
+  <section>
+    <h2>
+      Title and content
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem ipsum dolor sit amet
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Title, icon and content
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": undefined,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em"
+            >
+              <g>
+                <path
+                  d="m31.6 31.6v-18.2h-23.2v18.2h23.2z m-5-30h3.4v3.4h1.6c1.8 0 3.4 1.6 3.4 3.4v23.2c0 1.8-1.6 3.4-3.4 3.4h-23.2c-1.9 0-3.4-1.6-3.4-3.4v-23.2c0-1.8 1.5-3.4 3.4-3.4h1.6v-3.4h3.4v3.4h13.2v-3.4z m1.8 18.4v8.4h-8.4v-8.4h8.4z"
+                />
+              </g>
+            </svg>
+            <h3>
+              Lorem ipsum dolor sit amet
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Title, content and actions
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem ipsum dolor sit amet
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+        <div
+          className=""
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Graphic, title, content and actions
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <img
+            alt="placeholder"
+            src="https://maxicharts.com/wp-content/uploads/2017/07/banner-1544x500.png"
+          />
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem ipsum dolor sit amet
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+        <div
+          className=""
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Title on event handler
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className="undefined"
+          onClick={[Function]}
+          onKeyUp={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Click here and watch the action logger
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan. In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis sapien vel malesuada sodales. Curabitur hendrerit purus sed ex feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+        </div>
+        <div
+          className=""
+        >
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className=""
+            disabled={false}
+            onClick={null}
+            type="button"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Card section with collapsible content
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem title
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className={undefined}
+          >
+            <a
+              className={undefined}
+              onClick={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <div
+                className={undefined}
+              >
+                <h2
+                  className={undefined}
+                >
+                  Title opened
+                  <svg
+                    className="undefined"
+                    fill="currentColor"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    style={
+                      Object {
+                        "color": undefined,
+                        "verticalAlign": "middle",
+                      }
+                    }
+                    viewBox="0 0 40 40"
+                    width="1em"
+                  >
+                    <g>
+                      <path
+                        d="m12.3 13l7.7 7.7 7.7-7.7 2.3 2.4-10 10-10-10z"
+                      />
+                    </g>
+                  </svg>
+                </h2>
+                <p
+                  className={undefined}
+                >
+                  It's over 9000!
+                </p>
+              </div>
+            </a>
+            <div
+              className={undefined}
+            >
+              
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Simple card section
+    </h2>
+    <div
+      className={undefined}
+    >
+      <div
+        className=""
+      >
+        <div
+          className=""
+        >
+          <div
+            className=""
+          >
+            <h3>
+              Lorem title
+            </h3>
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <div
+            className={undefined}
+          >
+            <div
+              className={undefined}
+            >
+              <h2
+                className={undefined}
+              >
+                Lorem ipsum dolor sit amet
+              </h2>
+              
+            </div>
+            <div
+              className={undefined}
+            >
+              
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
+blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
+In diam est, egestas eu lobortis eu, laoreet ut tortor. Sed mattis
+sapien vel malesuada sodales. Curabitur hendrerit purus sed ex
+feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Storyshots Colors all 1`] = `
+<div
+  className={undefined}
+>
+  <h1>
+    Light Theme
+  </h1>
+  <div
+    className={undefined}
+  />
+</div>
+`;
+
+exports[`Storyshots ContextSwitch All styles 1`] = `
+<div
+  className={undefined}
+>
+  <section>
+    <h2>
+      Two options
+    </h2>
+    <div
+      className={undefined}
+    >
+      <label
+        className={undefined}
+        htmlFor="context-switch-live-test-input-test"
+      >
+        <input
+          checked={true}
+          className={undefined}
+          id="context-switch-live-test-input-test"
+          name="context-switch-live-test-input"
+          onChange={[Function]}
+          type="radio"
+          value="test"
+        />
+        <span
+          className={undefined}
+        >
+          test
+        </span>
+      </label>
+      <label
+        className={undefined}
+        htmlFor="context-switch-live-test-input-live"
+      >
+        <input
+          checked={false}
+          className={undefined}
+          id="context-switch-live-test-input-live"
+          name="context-switch-live-test-input"
+          onChange={[Function]}
+          type="radio"
+          value="live"
+        />
+        <span
+          className={undefined}
+        >
+          live
+        </span>
+      </label>
+    </div>
+  </section>
+  <section>
+    <h2>
+      Four options
+    </h2>
+    <div
+      className={undefined}
+    >
+      <label
+        className={undefined}
+        htmlFor="context-switch-super-extra-input-test"
+      >
+        <input
+          checked={false}
+          className={undefined}
+          id="context-switch-super-extra-input-test"
+          name="context-switch-super-extra-input"
+          onChange={[Function]}
+          type="radio"
+          value="test"
+        />
+        <span
+          className={undefined}
+        >
+          test
+        </span>
+      </label>
+      <label
+        className={undefined}
+        htmlFor="context-switch-super-extra-input-live"
+      >
+        <input
+          checked={false}
+          className={undefined}
+          id="context-switch-super-extra-input-live"
+          name="context-switch-super-extra-input"
+          onChange={[Function]}
+          type="radio"
+          value="live"
+        />
+        <span
+          className={undefined}
+        >
+          live
+        </span>
+      </label>
+      <label
+        className={undefined}
+        htmlFor="context-switch-super-extra-input-super-test"
+      >
+        <input
+          checked={true}
+          className={undefined}
+          id="context-switch-super-extra-input-super-test"
+          name="context-switch-super-extra-input"
+          onChange={[Function]}
+          type="radio"
+          value="super-test"
+        />
+        <span
+          className={undefined}
+        >
+          super-test
+        </span>
+      </label>
+      <label
+        className={undefined}
+        htmlFor="context-switch-super-extra-input-extra-live"
+      >
+        <input
+          checked={false}
+          className={undefined}
+          id="context-switch-super-extra-input-extra-live"
+          name="context-switch-super-extra-input"
+          onChange={[Function]}
+          type="radio"
+          value="extra-live"
+        />
+        <span
+          className={undefined}
+        >
+          extra-live
+        </span>
+      </label>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Storyshots DateSelector All types 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <ol>
+        <li>
+          <input
+            checked={true}
+            id="dateselector-always-the-same-string-preset-today"
+            name="dateselector-always-the-same-string-presets"
+            onChange={[Function]}
+            type="radio"
+          />
+          <label
+            htmlFor="dateselector-always-the-same-string-preset-today"
+          >
+            Hoje
+>>>>>>> 53c38a5... themes: refactor directory structure [WIP]
           </label>
         </li>
         <ol>

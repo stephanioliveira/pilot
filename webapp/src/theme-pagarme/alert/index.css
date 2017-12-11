@@ -1,52 +1,50 @@
+@import "../../theme-pagarme/colors.css";
+@import "../../theme-pagarme/typography.css";
 @import "./properties.css";
 
 .alert * {
   box-sizing: border-box;
-  margin: var(--alert-margin);
+  margin: 0;
 }
 
 .alert {
-  font-size: var(--alert-font-size);
+  font-size: 1em;
   display: flex;
-  border: var(--alert-border);
-  border-radius: var(--alert-border-radius);
-  padding: var(--alert-padding);
+  border: 1px solid var(--alert-secondary-border-color);
+  border-radius: 3px;
+  padding: 2px;
   align-items: center;
-  font-family: var(--alert-font-family);
+  font-family: var(--title-font-family);
 }
 
 .content {
-  margin-left: var(--alert-content-margin-left);
-  margin-right: var(--alert-content-margin-right);
+  margin-left: var(--spacing-small);
+  margin-right: var(--spacing-small);
   color: var(--alert-color);
 }
 
 .icon {
-  height: var(--alert-icon-height);
-  width: var(--alert-icon-width);
+  height: 50px;
+  width: 59px;
   color: var(--alert-secondary-icon-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--alert-icon-size);
+  font-size: 1.5em;
 }
 
-.light {
-
-  &.warning {
-    background-color: var(--alert-warning-color);
-  }
-
-  &.info {
-    background-color: var(--alert-info-color);
-  }
-
-  &.error {
-    background-color: var(--alert-error-color);
-  }
-
-  &.success {
-    background-color: var(--alert-success-color);
-  }
+.light-warning {
+  background-color: var(--color-light-warning);
 }
 
+.light-info {
+  background-color: var(--color-light-info);
+}
+
+.light-error {
+  background-color: var(--color-light-error);
+}
+
+.light-success {
+  background-color: var(--color-light-success);
+}

@@ -11,7 +11,11 @@ import {
   head,
 } from 'ramda'
 
+<<<<<<< HEAD
 const applyThemr = themr('UILegend')
+=======
+const applyThemr = themr('PLLegend')
+>>>>>>> 971df6c... theming: add legend
 
 const defineInitials = pipe(
   split(' '),
@@ -29,7 +33,11 @@ const Legend = ({
   theme,
 }) => {
   const labelClasses = cx(
+<<<<<<< HEAD
     theme.acronym,
+=======
+    theme.label,
+>>>>>>> 971df6c... theming: add legend
     {
       [theme.outline]: outline,
     }
@@ -55,7 +63,11 @@ const Legend = ({
 
 Legend.propTypes = {
   theme: PropTypes.shape({
+<<<<<<< HEAD
     acronym: PropTypes.string,
+=======
+    label: PropTypes.string,
+>>>>>>> 971df6c... theming: add legend
     outline: PropTypes.string,
     legend: PropTypes.string,
     text: PropTypes.string,

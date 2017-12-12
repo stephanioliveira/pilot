@@ -1,4 +1,5 @@
 import React from 'react'
+import { ThemeProvider } from 'react-css-themr'
 import { storiesOf } from '@storybook/react'
 
 import Legend from '../../src/components/Legend'

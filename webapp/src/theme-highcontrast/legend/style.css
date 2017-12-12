@@ -1,17 +1,14 @@
-<<<<<<< HEAD:webapp/src/theme-pagarme/legend/index.css
-=======
-@import "../typography.css";
->>>>>>> 971df6c... theming: add legend:webapp/src/theme-pagarme/legend/index.css
+@import "../../../styles/typography.css";
 @import "./properties.css";
 
 .legend {
   display: inline-flex;
   align-items: center;
   cursor: default;
-  letter-spacing: var(--legend-letter-spacing);
+  letter-spacing: var(--letter-spacing);
 }
 
-.acronym {
+.label {
   color: var(--legend-label-default-color);
   font-size: var(--legend-label-font-size);
   border-radius: var(--legend-label-border-radius);
@@ -20,6 +17,7 @@
   text-transform: uppercase;
   min-width: var(--legend-label-min-width);
   text-decoration: none;
+  font-weight: 900;
 }
 
 .outline {
@@ -28,6 +26,7 @@
 }
 
 .text {
+  color: var(--legend-text-color);
   font-size: var(--legend-text-font-size);
   margin-left: var(--legend-text-margin-left);
 }

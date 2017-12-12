@@ -7,7 +7,11 @@ import {
 } from 'react-motion'
 import classnames from 'classnames'
 
+<<<<<<< HEAD
 const applyThemr = themr('UILinearProgress')
+=======
+const applyThemr = themr('PLLinearProgress')
+>>>>>>> f3edcd2... theming: add linear-progress
 
 const Linear = ({
   theme,
@@ -15,16 +19,44 @@ const Linear = ({
   disabled,
   base,
 }) => {
+<<<<<<< HEAD
   const linearProgressClasses = classnames(
     theme.linearProgress,
     theme[base],
     {
       [theme.disabled]: disabled,
+=======
+  const classNameFill = classnames(
+    theme.fill,
+    {
+      [theme.fillEnabled]: !disabled,
+      [theme.fillDisabled]: disabled,
+    }
+  )
+
+  const classNameBack = classnames(
+    theme.back,
+    {
+      [theme.backEnabled]: !disabled,
+      [theme.backDisabled]: disabled,
+    }
+  )
+
+  const classNameNumber = classnames(
+    theme.number,
+    {
+      [theme.numberEnabled]: !disabled,
+      [theme.numberDisabled]: disabled,
+>>>>>>> f3edcd2... theming: add linear-progress
     }
   )
 
   return (
+<<<<<<< HEAD
     <div className={linearProgressClasses}>
+=======
+    <div className={theme.linear}>
+>>>>>>> f3edcd2... theming: add linear-progress
       <Motion
         defaultStyle={{
           x: 0,
@@ -56,6 +88,10 @@ const Linear = ({
                   style={{
                     marginRight: (x > 94) ? '0' : '-1em',
                   }}
+<<<<<<< HEAD
+=======
+                  className={theme.innerNumber}
+>>>>>>> f3edcd2... theming: add linear-progress
                 >
                   {percentage}
                 </div>
@@ -70,6 +106,7 @@ const Linear = ({
 
 Linear.propTypes = {
   theme: PropTypes.shape({
+<<<<<<< HEAD
     linearProgress: PropTypes.string,
     fill: PropTypes.string,
     background: PropTypes.string,
@@ -84,6 +121,22 @@ Linear.propTypes = {
     'dark',
     'light',
   ]),
+=======
+    fill: PropTypes.string,
+    fillEnabled: PropTypes.bool,
+    fillDisabled: PropTypes.bool,
+    back: PropTypes.string,
+    backEnabled: PropTypes.bool,
+    backDisabled: PropTypes.bool,
+    number: PropTypes.string,
+    numberEnabled: PropTypes.bool,
+    numberDisabled: PropTypes.bool,
+    linear: PropTypes.string,
+    innerNumber: PropTypes.string,
+  }).isRequired,
+  percent: PropTypes.number.isRequired,
+  disabled: PropTypes.bool,
+>>>>>>> f3edcd2... theming: add linear-progress
 }
 
 Linear.defaultProps = {

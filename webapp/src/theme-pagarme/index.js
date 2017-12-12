@@ -2,6 +2,7 @@ import UIAlert from './alert/index.css'
 import UIButton from './button/index.css'
 import UICard from './card/index.css'
 import UICheckbox from './checkbox/index.css'
+<<<<<<< HEAD
 import UICheckboxGroup from './checkbox-group/index.css'
 import UIDateInput from './date-input/index.css'
 import UIDateSelector from './date-selector'
@@ -18,6 +19,8 @@ import UISegmentedSwitch from './segmented-switch/index.css'
 import UISwitch from './switch/index.css'
 import UITabBar from './tab-bar/index.css'
 import UITag from './tag/index.css'
+=======
+>>>>>>> f3edcd2... theming: add linear-progress
 import UILinearProgress from './linear-progress/index.css'
 
 export default {
@@ -25,6 +28,7 @@ export default {
   UIButton,
   UICard,
   UICheckbox,
+<<<<<<< HEAD
   UICheckboxGroup,
   UIDateInput,
   UIDateSelector,
@@ -41,5 +45,7 @@ export default {
   UISwitch,
   UITabBar,
   UITag,
+=======
+>>>>>>> f3edcd2... theming: add linear-progress
   UILinearProgress,
 }

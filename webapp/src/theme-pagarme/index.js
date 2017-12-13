@@ -23,6 +23,7 @@ import UITag from './tag/index.css'
 >>>>>>> f3edcd2... theming: add linear-progress
 import UILinearProgress from './linear-progress/index.css'
 import UILegend from './legend/index.css'
+import UIModal from './modal/index.css'
 
 export default {
   UIAlert,
@@ -50,4 +51,5 @@ export default {
 >>>>>>> f3edcd2... theming: add linear-progress
   UILinearProgress,
   UILegend,
+  UIModal,
 }

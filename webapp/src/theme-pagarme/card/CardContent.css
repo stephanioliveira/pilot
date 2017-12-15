@@ -1,5 +1,0 @@
-@import "./properties.css";
-
-.content {
-  padding: var(--card-content-padding);
-}

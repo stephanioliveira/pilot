@@ -10,7 +10,7 @@ import { themr } from 'react-css-themr'
 
 import ReactModal from 'react-modal'
 
-const applyThemr = themr('PLModal')
+const applyThemr = themr('UIModal')
 
 const Modal = ({
   theme,

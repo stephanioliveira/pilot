@@ -1,25 +1,33 @@
+import UIAlert from './alert/index.css'
 import UIButton from './button/index.css'
 import UICard from './card/index.css'
-import UISwitch from './switch/index.css'
-import UIDropdown from './dropdown/index.css'
-<<<<<<< HEAD
 import UICheckbox from './checkbox/index.css'
-import UILinearProgress from './linear-progress/index.css'
+import UICheckboxGroup from './checkbox-group/index.css'
+import UIDropdown from './dropdown/index.css'
+import UIInput from './input/index.css'
 import UILegend from './legend/index.css'
-=======
+import UILinearProgress from './linear-progress/index.css'
 import UIModal from './modal/index.css'
->>>>>>> e2ed9b0... modal: move css files
+import UISegmentedSwitch from './segmented-switch/index.css'
+import UISwitch from './switch/index.css'
+import UITabBar from './tab-bar/index.css'
+import UITabItem from './tab-bar/TabItem.css'
+import UITag from './tag/index.css'
 
 export default {
+  UIAlert,
   UIButton,
   UICard,
-  UISwitch,
-  UIDropdown,
-<<<<<<< HEAD
   UICheckbox,
-  UILinearProgress,
+  UICheckboxGroup,
+  UIDropdown,
+  UIInput,
   UILegend,
-=======
+  UILinearProgress,
   UIModal,
->>>>>>> e2ed9b0... modal: move css files
+  UISegmentedSwitch,
+  UISwitch,
+  UITabBar,
+  UITabItem,
+  UITag,
 }

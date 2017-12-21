@@ -1,0 +1,18 @@
+@import "./properties.css";
+
+.tabBar {
+  border: solid 1px var(--tabbar-background);
+  border-top: none;
+  display: inline-block;
+  padding: var(--tabbar-padding);
+  padding-top: 0;
+}
+
+.tabBar * {
+  box-sizing: border-box;
+}
+
+.tabList {
+  margin: var(--tabbar-tablist-padding-fix);
+}
+

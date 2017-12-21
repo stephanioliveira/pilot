@@ -85,13 +85,13 @@
 }
 
 .checkbox > input:checked + label .check:after {
-  transform: rotate(var(--checkbox-marker-rotation));
-  color: var(--checkbox-marker-color);
-  width: var(--checkbox-marker-width);
-  height: var(--checkbox-marker-height);
+  transform: rotate(var(--checkbox-check-rotation));
+  color: var(--checkbox-check-color);
+  width: var(--checkbox-check-width);
+  height: var(--checkbox-check-height);
   left: 4px;
   top: 1px;
-  border: 2px solid var(--checkbox-marker-border-color);
+  border: 2px solid var(--checkbox-check-border-color);
   border-top-style: none;
   border-right-style: none;
 }

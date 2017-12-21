@@ -1,2 +1,2 @@
-import './themeDecorator'
+import './ThemeSelector'
 import './percyIntegration'

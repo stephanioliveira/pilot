@@ -65,8 +65,6 @@ export default class ThemeSelector extends Component {
     const { children, storyFn } = this.props
     const { theme } = this.state
 
-    console.log(theme.name)
-
     return (
       <ThemeProvider key={theme.name} theme={theme.theme} >
         {storyFn()}

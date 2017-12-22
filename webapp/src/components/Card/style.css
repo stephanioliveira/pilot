@@ -59,10 +59,11 @@
 
 .actions {
   padding: var(--card-actions-padding);
+  text-align: right;
 }
 
 .actions > * {
-  margin-left: var(--card-spacing-medium);
+  margin-left: var(--card-actions-spacing);
 }
 
 .actions > *:first-child {

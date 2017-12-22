@@ -7,8 +7,9 @@ import style from './classNames.style.css'
 import toolItemStyle from '../style.css'
 
 
-export const getInputClasses = (focused, active, error) => classNames(
+export const getInputClasses = ({ focused, active, error }) => classNames(
   toolItemStyle.root,
+  style.dateInput,
   {
     [toolItemStyle.focused]: !error && focused,
     [toolItemStyle.active]: !error && active,

@@ -31,16 +31,16 @@
     var(--card-spacing-small)
     var(--card-spacing-medium);
 
-  --card-background: var(--color-white);
+  --card-background: var(--color-light-chromium-100);
 
-  --card-section-title-color: var(--color-light-steel-100);
+  --card-section-title-color: var(--color-white);
   --card-section-title-icon-color: var(--color-light-greenish-100);
   --card-section-title-icon-size: 18px;
-  --card-section-background: var(--color-light-smoke-40);
+  --card-section-background: var(--color-light-chromium-100);
 
-  --card-section-header-background: var(--color-light-smoke-40);
+  --card-section-header-background: var(--color-light-silver-20);
 
-  --card-section-subtitle-color: var(--color-light-steel-50);
+  --card-section-subtitle-color: var(--color-light-platinum-20);
   --card-section-subtitle-font-size: 12px;
   --card-section-subtitle-margin-right: var(--spacing-small);
 }

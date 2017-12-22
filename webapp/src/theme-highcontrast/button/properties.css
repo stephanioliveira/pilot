@@ -35,20 +35,20 @@
   --button-focus-animation-start: inset -200px 0 3px 0;
   --button-focus-animation-end: inset 0 0 3px 0;
 
-  --button-success-color: var(--color-light-greenish-100);
-  --button-success-gradient: var(--color-light-greenish-gradient);
-  --button-success-focus: var(--color-light-greenish-50);
-  --button-success-hover: var(--color-light-greenish-120);
-  --button-success-active: var(--color-light-greenish-150);
+  --button-success-color: var(--color-light-chromium-100);
+  --button-success-gradient: var(--color-light-chromium-100);
+  --button-success-focus: var(--color-light-chromium-50);
+  --button-success-hover: var(--color-light-steel-100);
+  --button-success-active: var(--color-light-coal-100);
 
   --button-neutral-color: var(--color-light-grey-50);
   --button-neutral-focus: var(--color-light-iron-50);
   --button-neutral-hover: var(--color-light-iron-100);
   --button-neutral-active: var(--color-light-grey-100);
 
-  --button-danger-color: var(--color-light-salmon-100);
-  --button-danger-gradient: var(--color-light-salmon-gradient);
-  --button-danger-focus: var(--color-light-salmon-50);
-  --button-danger-hover: var(--color-light-salmon-120);
-  --button-danger-active: var(--color-light-salmon-150);
+  --button-danger-color: var(--color-light-platinum-100);
+  --button-danger-gradient: var(--color-light-platinum-100);
+  --button-danger-focus: var(--color-light-platinum-50);
+  --button-danger-hover: var(--color-light-silver-50);
+  --button-danger-active: var(--color-light-silver-100);
 }

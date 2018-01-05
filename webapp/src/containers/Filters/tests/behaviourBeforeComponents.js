@@ -1,5 +1,5 @@
-import DateInput from './../../../components/Toolbar/DateInput'
-import SearchField from './../../../components/Toolbar/SearchField'
+import DateInput from './../../../components/DateInput'
+import SearchField from './../../../components/Input'
 import CardSection from './../../../components/Card/CardSection'
 import Button from './../../../components/Button'
 import { CardActions } from './../../../components/Card'
@@ -89,7 +89,10 @@ const changeAllFilters = () => {
   const defaultProps = component.props()
 
   // expand filters section
-  component.find(CardSection).find('a').simulate('click')
+  component
+    .find(CardSection)
+    .find('[role="button"]')
+    .simulate('click')
   const checkboxGroups = getCheckboxGroups(component)
   const checkedFiltersValues = checkboxGroups
     .map(node => node
@@ -111,7 +114,10 @@ const changeAllFilters = () => {
   dateInput.props().onChange(newDates)
 
   // colapse filters section
-  component.find(CardSection).find('a').simulate('click')
+  component
+    .find(CardSection)
+    .find('[role="button"]')
+    .simulate('click')
 
   return {
     onChange,

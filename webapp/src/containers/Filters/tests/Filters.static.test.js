@@ -1,8 +1,8 @@
 import cases from 'jest-in-case'
 import moment from 'moment'
 
-import DateInput from '../../../components/Toolbar/DateInput'
-import SearchField from '../../../components/Toolbar/SearchField'
+import DateInput from '../../../components/DateInput'
+import SearchField from '../../../components/Input'
 import Button from '../../../components/Button'
 import CheckboxGroup from '../../../components/CheckboxGroup'
 import { CardActions } from '../../../components/Card'
@@ -62,21 +62,21 @@ describe('Filters', () => {
       expect(submitButton.props().disabled).toBe(opts.disabled)
     }, submitButtonDisabledCase)
 
-    cases('should have submit button with correct color prop', (opts) => {
+    cases('should have submit button with correct relevance', (opts) => {
       const submitButton = opts.component
         .find(CardActions)
         .find(Button)
         .last()
 
-      expect(submitButton.props().color).toBe(opts.color)
+      expect(submitButton.props().relevance).toBe(opts.buttonRelevance)
     }, submitButtonColorCase)
 
-    cases('should have reset button with correct color prop', (opts) => {
+    cases('should have reset button with correct relevance', (opts) => {
       const resetButton = opts.component
         .find(CardActions)
         .findWhere(node => node.is(Button) && node.prop('type') !== 'submit')
 
-      expect(resetButton.props().color).toBe(opts.color)
+      expect(resetButton.props().relevance).toBe(opts.buttonRelevance)
     }, resetButtonColorCase)
 
     cases('should have one item selected in each filterGroup', ({ component, selectedFilters }) => {

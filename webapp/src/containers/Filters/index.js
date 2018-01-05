@@ -11,6 +11,7 @@ import {
 import moment from 'moment'
 
 import IconFunnel from 'react-icons/lib/fa/filter'
+import IconSearch from 'react-icons/lib/fa/search'
 
 import {
   equals,
@@ -28,9 +29,8 @@ import {
   CardSection,
 } from '../../components/Card'
 
-import DateInput from '../../components/Toolbar/DateInput'
-import SearchField from '../../components/Toolbar/SearchField'
-import Toolbar from '../../components/Toolbar'
+import DateInput from '../../components/DateInput'
+import Input from '../../components/Input'
 import Button from '../../components/Button'
 import Tag from '../../components/Tag'
 
@@ -88,9 +88,9 @@ class Filters extends Component {
     })
   }
 
-  handleSearchFieldChange (search) {
+  handleSearchFieldChange (event) {
     this.setState({
-      search,
+      search: event.target.value,
     })
   }
 
@@ -160,21 +160,22 @@ class Filters extends Component {
     const isDateActive = dates.start !== null && dates.end !== null
 
     return (
-      <Toolbar>
+      <div className={style.inputs}>
         <DateInput
           dates={dates}
           active={isDateActive}
           onChange={this.handleDateInputChange}
           presets={datePresets}
         />
-
-        <SearchField
+        <Input
+          className={style.searchField}
+          icon={<IconSearch />}
           value={this.state.search}
           placeholder="Filtre por ID, CPF, nome e e-mail."
           onChange={this.handleSearchFieldChange}
           active={!!this.state.search}
         />
-      </Toolbar>
+      </div>
     )
   }
 
@@ -261,18 +262,18 @@ class Filters extends Component {
     return (
       <CardActions>
         <Button
-          color={filtersChanged ? 'green' : 'silver'}
+          relevance={filtersChanged ? 'normal' : 'low'}
           onClick={this.handleCleanFilters}
-          variant="outline"
+          fill="outline"
         >
           Limpar filtros
         </Button>
 
         <Button
-          color={filtersChanged ? 'green' : 'silver'}
+          relevance={filtersChanged ? 'normal' : 'low'}
           disabled={!filtersChanged}
           type="submit"
-          variant="gradient"
+          fill="gradient"
         >
           Filtrar
         </Button>

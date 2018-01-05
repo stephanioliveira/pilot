@@ -1,6 +1,6 @@
-@import "../../styles/typography.css";
-@import "../../styles/colors.css";
-@import "../../styles/spacing.css";
+@import "../../theme-pagarme/typography.css";
+@import "../../theme-pagarme/colors.css";
+@import "../../theme-pagarme/spacing.css";
 
 .heading {
   margin: 0;
@@ -17,6 +17,23 @@
 
 .cardContent > *:first-child {
   margin-top: unset;
+}
+
+.inputs {
+  display: flex;
+}
+
+.inputs > * {
+  margin-left: 8px;
+  flex: 0;
+}
+
+.inputs > *:first-child {
+  margin-left: unset;
+}
+
+.searchField {
+  flex: 1;
 }
 
 .selectedOptionsTitle {

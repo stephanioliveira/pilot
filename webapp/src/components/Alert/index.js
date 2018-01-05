@@ -1,16 +1,11 @@
-/* eslint css-modules/no-unused-class: [2, {
-     markAsUsed: [
-       'dark-warning', 'dark-error', 'dark-info', 'dark-success',
-       'light-warning', 'light-info', 'light-error', 'light-success'
-     ]
-   }]
-*/
-
 import React from 'react'
-import classnames from 'classnames'
+import classNames from 'classnames'
+
 import {
   oneOf,
   element,
+  shape,
+  string,
 } from 'prop-types'
 
 import IconCheck from 'react-icons/lib/md/check'
@@ -18,7 +13,9 @@ import IconInfo from 'react-icons/lib/md/info-outline'
 import IconWarning from 'react-icons/lib/md/warning'
 import IconClear from 'react-icons/lib/md/clear'
 
-import style from './style.css'
+import { themr } from 'react-css-themr'
+
+const applyThemr = themr('UIAlert')
 
 const icons = {
   success: IconCheck,
@@ -31,18 +28,23 @@ function Alert ({
   type,
   children,
   base,
+  theme,
 }) {
   const Icon = icons[type]
-  const iconClassName = classnames(style.icon, style[`${base}-${type}`])
+  const iconClassName = classNames(
+    theme.icon,
+    theme[base],
+    theme[type]
+  )
 
   return (
-    <div className={style.alert}>
+    <div className={theme.alert}>
       {Icon && (
         <div className={iconClassName}>
           <Icon />
         </div>
       )}
-      <div className={style.content}>
+      <div className={theme.content}>
         {children}
       </div>
     </div>
@@ -50,6 +52,17 @@ function Alert ({
 }
 
 Alert.propTypes = {
+  theme: shape({
+    alert: string,
+    icon: string,
+    content: string,
+    light: string,
+    dark: string,
+    warning: string,
+    info: string,
+    error: string,
+    success: string,
+  }),
   type: oneOf([
     'warning',
     'info',
@@ -64,7 +77,8 @@ Alert.propTypes = {
 }
 
 Alert.defaultProps = {
+  theme: {},
   base: 'light',
 }
 
-export default Alert
+export default applyThemr(Alert)

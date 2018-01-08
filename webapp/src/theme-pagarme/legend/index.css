@@ -1,7 +1,3 @@
-<<<<<<< HEAD:webapp/src/theme-pagarme/legend/index.css
-=======
-@import "../typography.css";
->>>>>>> 971df6c... theming: add legend:webapp/src/theme-pagarme/legend/index.css
 @import "./properties.css";
 
 .legend {

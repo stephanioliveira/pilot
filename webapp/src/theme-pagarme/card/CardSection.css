@@ -1,61 +1,66 @@
+@import "../colors.css";
 @import "./properties.css";
 
-.section {
-  background-color: var(--card-section-background);
+.cardSection {
+  background: var(--card-background);
+  box-shadow: var(--card-shadow);
+  margin: 0;
+  padding: 0;
   border-radius: var(--card-border-radius);
   width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.cardSection * {
   box-sizing: border-box;
 }
 
-.sectionTitle {
+.title {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: var(--card-spacing-small);
-  font-size: var(--card-title-font-size);
-  font-family: var(--title-font-family);
-  font-weight: var(--title-font-weight);
-  font-style: var(--title-font-style);
-  letter-spacing: var(--letter-spacing);
-  text-transform: uppercase;
-  color: var(--card-section-title-color);
+  outline: 0;
 }
 
-.sectionTitle[role="button"] {
+.title > svg:first-child {
+  margin-right: var(--card-title-icon-margin);
+}
+
+.cursor {
   cursor: pointer;
-
-  &:focus {
-    box-shadow: none;
-    outline: none;
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
 }
 
-.arrow {
-  padding: 0;
+.title > h4,
+.title > h3,
+.title > h2,
+.title > h1 {
   margin: 0;
-  color: var(--card-section-title-icon-color);
-  font-size: var(--card-section-title-icon-size);
-
-  @nest .expanded & {
-    transform: rotate(180deg);
-  }
 }
 
-.sectionSubtitle {
-  margin-right: var(--card-section-subtitle-margin-right);
-  letter-spacing: var(--letter-spacing);
-  font-family: var(--title-font-family);
-  font-size: var(--card-section-subtitle-font-size);
-  color: var(--card-section-subtitle-color);
+.title,
+.title > h3 {
+  color: var(--card-section-title-color);
+  margin-right: var(--card-title-icon-margin);
 }
 
-.sectionContent {
-  padding-left: var(--spacing-small);
-  padding-right: var(--spacing-small);
-  padding-bottom: var(--spacing-small);
+.content {
+  padding: var(--card-content-padding);
 }
+
+.graphic,
+.graphic > img {
+  width: 100%;
+}
+
+.actions {
+  padding: var(--card-actions-padding);
+}
+
+.actions > * {
+  margin-left: var(--card-spacing-medium);
+}
+
+.actions > *:first-child {
+  margin-left: unset;
+}
+

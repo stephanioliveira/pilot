@@ -1,22 +1,12 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-
 import Icon from 'react-icons/lib/md/insert-invitation'
-
 import '../../src/theme-pagarme/index.css'
 import style from './style.css'
-
-import defaultTheme from '../../src/components/Card/defaultTheme/index.css'
-import highContrastTheme from '../../src/components/Card/highContrastTheme/index.css'
-import defaultCardSectionTheme from '../../src/components/Card/defaultTheme/CardSection.style.css'
-import highContrastCardSectionTheme from '../../src/components/Card/highContrastTheme/CardSection.style.css'
-
-import CardComponents from '../../src/components/Card'
-
 import Button from '../../src/components/Button'
 
-const {
+import {
   Card,
   CardTitle,
   CardContent,
@@ -24,8 +14,6 @@ const {
   CardActions,
   CardSection,
 } from '../../src/components/Card'
-
-import Button from '../../src/components/Button'
 
 const TitleText = () => (
   <div className={style.showcase}>

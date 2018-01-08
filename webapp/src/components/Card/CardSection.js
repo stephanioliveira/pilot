@@ -111,9 +111,6 @@ CardSection.propTypes = {
   children: PropTypes.node.isRequired,
   onTitleClick: PropTypes.func,
   subTitle: PropTypes.string,
-  theme: PropTypes.shape({
-    base: PropTypes.string,
-  }).isRequired,
 }
 
 CardSection.defaultProps = {

@@ -1,10 +1,6 @@
 @import "../../theme-pagarme/typography.css";
 @import "../../theme-pagarme/colors.css";
 @import "../../theme-pagarme/spacing.css";
-<<<<<<< HEAD
-=======
-@import "../../theme-pagarme/media.css";
->>>>>>> 53c38a5... themes: refactor directory structure [WIP]
 
 .heading {
   margin: 0;

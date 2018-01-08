@@ -1,10 +1,6 @@
 import React from 'react'
-import { ThemeProvider } from 'react-css-themr'
-
 import { storiesOf } from '@storybook/react'
-
 import Tag from '../../src/components/Tag'
-
 import style from './style.css'
 
 const tags = [

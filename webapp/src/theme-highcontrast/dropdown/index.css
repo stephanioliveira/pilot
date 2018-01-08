@@ -1,139 +1,107 @@
-/* stylelint-disable selector-max-class */
-@import "../../theme-pagarme/typography.css";
 @import "./properties.css";
 
-.container * {
+.dropdown * {
   box-sizing: border-box;
   font-family: var(--dropdown-font-family);
-  letter-spacing: var(--letter-spacing);
 }
 
-.container select {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
+.dropdown {
   width: 100%;
-  height: 100%;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  height: var(--dropdown-height);
+  border-top: var(--dropdown-border-top);
+  border-right: var(--dropdown-border-right);
+  border-bottom: var(--dropdown-border-bottom);
+  border-left: var(--dropdown-border-left);
+  border-radius: var(--dropdown-border-radius);
 }
 
-.container select:disabled {
-  cursor: not-allowed;
-}
-
-.input {
-  border: 0;
-  background: transparent;
-  border-bottom: 2px solid var(--dropdown-input-border-color);
-  border-radius: var(--dropdown-input-border-radius);
-  outline: 0;
+.select {
+  cursor: inherit;
+  appearance: none;
+  border: none;
   display: block;
   text-align: left;
-  font-size: var(--dropdown-input-font-size);
+  height: var(--dropdown-select-height);
+  font-size: var(--dropdown-font-size);
   width: 100%;
-  height: var(--dropdown-input-height);
-  cursor: pointer;
-  color: var(--dropdown-input-text-color);
-  text-decoration: none;
-  opacity: 1;
-  line-height: var(--dropdown-input-line-height);
-  position: relative;
+  color: var(--dropdown-text-color);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-right: var(--dropdown-icon-size);
+  background-color: var(--dropdown-background-color);
+  outline: none;
+  padding:
+    var(--dropdown-select-padding-top, 0)
+    var(--dropdown-select-padding-right, 0)
+    var(--dropdown-select-padding-bottom, 0)
+    var(--dropdown-select-padding-left, 0);
 }
 
-.input > a {
-  display: block;
+.select:active + .arrow {
+  color: var(--dropdown-icon-color-active);
+  background-color: var(--dropdown-icon-background-active);
 }
 
-.buttonGroup {
-  position: relative;
-  width: 100%;
-}
-
-.option {
-  color: var(--dropdown-option-color);
-}
-
-.disabledOption {
-  opacity: var(--dropdown-disabled-option-opacity);
-}
-
-.disabledOption:hover {
-  background: var(--dropdown-disabled-option-background);
-  cursor: not-allowed;
-}
-
-.isSelected {
-  color: var(--dropdown-option-selected-color);
-}
-
-.label {
-  color: var(--dropdown-label-color);
-  font-size: var(--dropdown-label-dropdown-font-size);
-  display: block;
-  margin-bottom: -7px;
-}
-
-.secondaryText {
-  width: 100%;
-  font-size: var(--dropdown-secondary-text-font-size);
-  text-align: left;
-  margin: 0;
-  margin-top: 8px;
+.disabled:active + .arrow {
+  color: var(--dropdown-text-color);
+  background-color: var(--dropdown-background-color);
 }
 
 .arrow {
   position: absolute;
-  cursor: pointer;
-  bottom: 0;
+  top: var(--dropdown-icon-top, 0);
   right: 0;
+  pointer-events: none;
   width: var(--dropdown-icon-size);
   height: var(--dropdown-icon-size);
+  border-left: var(--dropdown-icon-border);
 }
 
-.containerDisabled {
+.option {
+  color: var(--dropdown-option-color);
+  cursor: pointer;
+  appearance: none;
+}
+
+.placeholder {
+  opacity: var(--dropdown-option-disabled-opacity);
+}
+
+.placeholder:hover {
+  background: var(--dropdown-option-disabled-background);
   cursor: not-allowed;
 }
 
-.containerDisabled .input {
-  border-bottom: 1px dashed var(--dropdown-color-disabled);
-  color: var(--dropdown-color-disabled);
+.active {
+  color: var(--dropdown-option-selected-color);
 }
 
-.containerDisabled .label {
-  color: var(--dropdown-color-disabled);
+.label {
+  color: var(--dropdown-placeholder-color);
+  font-size: var(--dropdown-placeholder-font-size);
+  line-height: var(--dropdown-placeholder-line-height);
+  display: block;
+}
+
+.disabled,
+.disabled * {
   cursor: not-allowed;
 }
 
-.containerError .arrow,
-.containerSuccess .arrow {
-  bottom: 24px;
+.disabled .select {
+  pointer-events: none;
+  user-select: none;
 }
 
-.containerError .input {
-  border-bottom: 2px solid var(--color-light-error);
+.disabled {
+  opacity: var(--dropdown-option-disabled-opacity);
+  color: var(--dropdown-color-disabled);
 }
 
-.containerError .label {
-  color: var(--color-light-error);
+.disabled .placeholder {
+  color: var(--dropdown-color-disabled);
 }
 
-.containerError .secondaryText {
-  color: var(--color-light-error);
-}
-
-.containerSuccess .input {
-  border-bottom: 2px solid var(--color-light-success);
-}
-
-.containerSuccess .label {
-  color: var(--color-light-success);
-}
-
-.containerSuccess .secondaryText {
-  color: var(--color-light-success);
-}

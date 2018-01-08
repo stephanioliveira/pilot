@@ -1,8 +1,8 @@
-@import "../colors.css";
 @import "./properties.css";
+@import "./CardSection.css";
 
-.cardSection {
-  background: var(--card-background);
+.card {
+  background: var(--color-white);
   box-shadow: var(--card-shadow);
   margin: 0;
   padding: 0;
@@ -12,21 +12,22 @@
   overflow: hidden;
 }
 
-.cardSection * {
+.card * {
   box-sizing: border-box;
 }
 
 .title {
+  padding: var(--card-title-padding);
   display: flex;
   align-items: center;
-  outline: 0;
+  outline: none;
 }
 
-.title > svg:first-child {
+.icon {
   margin-right: var(--card-title-icon-margin);
 }
 
-.cursor {
+.title[role="button"] {
   cursor: pointer;
 }
 
@@ -39,7 +40,7 @@
 
 .title,
 .title > h3 {
-  color: var(--card-section-title-color);
+  color: var(--color-light-steel-100);
   margin-right: var(--card-title-icon-margin);
 }
 
@@ -54,10 +55,12 @@
 
 .actions {
   padding: var(--card-actions-padding);
+  display: flex;
+  justify-content: flex-end;
 }
 
 .actions > * {
-  margin-left: var(--card-spacing-medium);
+  margin-left: var(--card-spacing-small);
 }
 
 .actions > *:first-child {

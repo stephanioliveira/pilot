@@ -166,807 +166,809 @@ exports[`Storyshots Alerts All types 1`] = `
 `;
 
 exports[`Storyshots Buttons defaultTheme 1`] = `
-<div
-  className={undefined}
->
-  <h2>
-    Default Button
-  </h2>
+<div>
   <div
     className={undefined}
   >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
+    <h2>
+      Default Button
+    </h2>
+    <div
+      className={undefined}
     >
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-  </div>
-  <h2>
-    Gradient
-  </h2>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-  </div>
-  <h2>
-    Outline Button
-  </h2>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-  </div>
-  <h2>
-    Clean Button
-  </h2>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      Call to Action
-    </button>
-  </div>
-  <h2>
-    All buttons with icons
-  </h2>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
+        Call to Action
+      </button>
+    </div>
+    <h2>
+      Gradient
+    </h2>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
+        Call to Action
+      </button>
+    </div>
+    <h2>
+      Outline Button
+    </h2>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
+        Call to Action
+      </button>
+    </div>
+    <h2>
+      Clean Button
+    </h2>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <h2>
-    Sizes
-  </h2>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
+        Call to Action
+      </button>
+    </div>
+    <h2>
+      All buttons with icons
+    </h2>
+    <div
+      className={undefined}
     >
-      tiny
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      small
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      default
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={false}
-      onClick={null}
-      type="button"
-    >
-      large
-    </button>
-  </div>
-  <h2>
-    All disabled
-  </h2>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
           }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
           }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
-    >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
           }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
-      >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+    </div>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+    </div>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+    </div>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+    </div>
+    <h2>
+      Sizes
+    </h2>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-  </div>
-  <div
-    className={undefined}
-  >
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
+        tiny
+      </button>
+    </div>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
+        small
+      </button>
+    </div>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
-    <button
-      className=""
-      disabled={true}
-      onClick={null}
-      type="button"
+        default
+      </button>
+    </div>
+    <div
+      className={undefined}
     >
-      <svg
-        fill="currentColor"
-        height="1em"
-        preserveAspectRatio="xMidYMid meet"
-        style={
-          Object {
-            "color": undefined,
-            "verticalAlign": "middle",
-          }
-        }
-        viewBox="0 0 40 40"
-        width="1em"
+      <button
+        className=""
+        disabled={false}
+        onClick={null}
+        type="button"
       >
-        <g>
-          <path
-            d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
-          />
-        </g>
-      </svg>
-      Call to Action
-    </button>
+        large
+      </button>
+    </div>
+    <h2>
+      All disabled
+    </h2>
+    <div
+      className={undefined}
+    >
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+    </div>
+    <div
+      className={undefined}
+    >
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+    </div>
+    <div
+      className={undefined}
+    >
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+    </div>
+    <div
+      className={undefined}
+    >
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+      <button
+        className=""
+        disabled={true}
+        onClick={null}
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em"
+        >
+          <g>
+            <path
+              d="m35.9 16.4v4.3q0 0.9-0.6 1.5t-1.5 0.7h-9.3v9.2q0 0.9-0.6 1.6t-1.5 0.6h-4.3q-0.9 0-1.5-0.6t-0.7-1.6v-9.2h-9.3q-0.9 0-1.5-0.7t-0.6-1.5v-4.3q0-0.9 0.6-1.5t1.5-0.6h9.3v-9.3q0-0.9 0.7-1.5t1.5-0.6h4.3q0.9 0 1.5 0.6t0.6 1.5v9.3h9.3q0.9 0 1.5 0.6t0.6 1.5z"
+            />
+          </g>
+        </svg>
+        Call to Action
+      </button>
+    </div>
   </div>
 </div>
 `;
@@ -1302,7 +1304,7 @@ exports[`Storyshots Cards default theme 1`] = `
             <div
               className={undefined}
             >
-
+              
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
 venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
 blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
@@ -1345,12 +1347,12 @@ feugiat hendrerit. Vivamus eleifend odio a congue consectetur.
               <span>
                 Lorem ipsum dolor sit amet
               </span>
-
+              
             </div>
             <div
               className={undefined}
             >
-
+              
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
 venenatis placerat lacus et pretium. Aenean porttitor mi odio, vel
 blandit nulla malesuada et. Duis a tellus quis est iaculis accumsan.
@@ -1382,7 +1384,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
       <div
         className=""
       >
-
+        
         <div>
           <div>
             <div
@@ -1405,7 +1407,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 Leo
               </label>
-
+              
             </div>
             <div
               className=""
@@ -1427,7 +1429,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 Nerone
               </label>
-
+              
             </div>
             <div
               className=""
@@ -1449,13 +1451,13 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 hi
               </label>
-
+              
             </div>
           </div>
         </div>
       </div>
       <p>
-        Selecionado:
+        Selecionado: 
         nerone
       </p>
     </div>
@@ -1468,7 +1470,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
       <div
         className=""
       >
-
+        
         <div>
           <div>
             <div
@@ -1491,7 +1493,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 Leo
               </label>
-
+              
             </div>
             <div
               className=""
@@ -1513,7 +1515,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 Nerone
               </label>
-
+              
             </div>
             <div
               className=""
@@ -1535,13 +1537,13 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 hi
               </label>
-
+              
             </div>
           </div>
         </div>
       </div>
       <p>
-        Selecionado:
+        Selecionado: 
         nerone
       </p>
     </div>
@@ -1581,7 +1583,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 Leo
               </label>
-
+              
             </div>
             <div
               className=""
@@ -1603,7 +1605,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 Nerone
               </label>
-
+              
             </div>
             <div
               className=""
@@ -1625,13 +1627,13 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 hi
               </label>
-
+              
             </div>
           </div>
         </div>
       </div>
       <p>
-        Selecionado:
+        Selecionado: 
         nerone
       </p>
     </div>
@@ -1671,7 +1673,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 Leo
               </label>
-
+              
             </div>
             <div
               className=""
@@ -1693,7 +1695,7 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 Nerone
               </label>
-
+              
             </div>
             <div
               className=""
@@ -1715,13 +1717,13 @@ exports[`Storyshots Checkbox Group Default 1`] = `
                 />
                 hi
               </label>
-
+              
             </div>
           </div>
         </div>
       </div>
       <p>
-        Selecionado:
+        Selecionado: 
         nerone
       </p>
     </div>
@@ -5503,7 +5505,7 @@ exports[`Storyshots Filters Default 1`] = `
                 </g>
               </svg>
             </span>
-
+            
           </div>
         </div>
       </div>
@@ -7369,7 +7371,7 @@ exports[`Storyshots Inputs Default 1`] = `
           <div
             className={undefined}
           >
-
+            
             <br />
           </div>
         </div>
@@ -7720,7 +7722,7 @@ exports[`Storyshots Inputs Default 1`] = `
           <div
             className={undefined}
           >
-
+            
             <br />
           </div>
         </div>
@@ -8206,7 +8208,7 @@ exports[`Storyshots Inputs Form 1`] = `
           <div
             className={undefined}
           >
-
+            
             <br />
           </div>
         </div>
@@ -8557,7 +8559,7 @@ exports[`Storyshots Inputs Form 1`] = `
           <div
             className={undefined}
           >
-
+            
             <br />
           </div>
         </div>
@@ -9447,13 +9449,13 @@ exports[`Storyshots Pagination defaultTheme 1`] = `
         </button>
       </div>
       <p>
-        Current page:
+        Current page: 
         1
       </p>
       <label
         htmlFor="totalPages"
       >
-         Total pages:
+         Total pages: 
         1
       </label>
     </div>
@@ -9561,13 +9563,13 @@ exports[`Storyshots Pagination defaultTheme 1`] = `
         </button>
       </div>
       <p>
-        Current page:
+        Current page: 
         1
       </p>
       <label
         htmlFor="totalPages"
       >
-         Total pages:
+         Total pages: 
         10
       </label>
     </div>
@@ -9675,13 +9677,13 @@ exports[`Storyshots Pagination defaultTheme 1`] = `
         </button>
       </div>
       <p>
-        Current page:
+        Current page: 
         5
       </p>
       <label
         htmlFor="totalPages"
       >
-         Total pages:
+         Total pages: 
         10
       </label>
     </div>
@@ -9789,13 +9791,13 @@ exports[`Storyshots Pagination defaultTheme 1`] = `
         </button>
       </div>
       <p>
-        Current page:
+        Current page: 
         10
       </p>
       <label
         htmlFor="totalPages"
       >
-         Total pages:
+         Total pages: 
         10
       </label>
     </div>
@@ -9903,13 +9905,13 @@ exports[`Storyshots Pagination defaultTheme 1`] = `
         </button>
       </div>
       <p>
-        Current page:
+        Current page: 
         1
       </p>
       <label
         htmlFor="totalPages"
       >
-         Total pages:
+         Total pages: 
         10000
       </label>
     </div>
@@ -10020,13 +10022,13 @@ exports[`Storyshots Pagination defaultTheme 1`] = `
         Epic fail!
       </p>
       <p>
-        Current page:
+        Current page: 
         2
       </p>
       <label
         htmlFor="totalPages"
       >
-         Total pages:
+         Total pages: 
         1
       </label>
     </div>
@@ -10506,10 +10508,10 @@ exports[`Storyshots Radio Group Default 1`] = `
             Sofá
           </span>
         </label>
-
+        
       </div>
       <pre>
-        Selecionado:
+        Selecionado: 
         casa
       </pre>
     </div>
@@ -10582,10 +10584,10 @@ exports[`Storyshots Radio Group Default 1`] = `
             Sofá
           </span>
         </label>
-
+        
       </div>
       <pre>
-        Selecionado:
+        Selecionado: 
         casa
       </pre>
     </div>
@@ -10665,7 +10667,7 @@ exports[`Storyshots Radio Group Default 1`] = `
         </p>
       </div>
       <pre>
-        Selecionado:
+        Selecionado: 
         sofa
       </pre>
     </div>
@@ -10745,7 +10747,7 @@ exports[`Storyshots Radio Group Default 1`] = `
         </p>
       </div>
       <pre>
-        Selecionado:
+        Selecionado: 
         casa
       </pre>
     </div>
@@ -10766,12 +10768,12 @@ exports[`Storyshots SegmentedSwitch All styles 1`] = `
     >
       <label
         className={undefined}
-        htmlFor="segmented-switch-shortid-mock-live-test-test"
+        htmlFor="context-switch-live-test-input-test"
       >
         <input
           checked={true}
-          id="segmented-switch-shortid-mock-live-test-test"
-          name="segmented-switch-shortid-mock-live-test-test"
+          id="context-switch-live-test-input-test"
+          name="context-switch-live-test-input"
           onChange={[Function]}
           type="radio"
           value="test"
@@ -10784,12 +10786,12 @@ exports[`Storyshots SegmentedSwitch All styles 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="segmented-switch-shortid-mock-live-test-live"
+        htmlFor="context-switch-live-test-input-live"
       >
         <input
           checked={false}
-          id="segmented-switch-shortid-mock-live-test-live"
-          name="segmented-switch-shortid-mock-live-test-live"
+          id="context-switch-live-test-input-live"
+          name="context-switch-live-test-input"
           onChange={[Function]}
           type="radio"
           value="live"
@@ -10811,12 +10813,12 @@ exports[`Storyshots SegmentedSwitch All styles 1`] = `
     >
       <label
         className={undefined}
-        htmlFor="segmented-switch-shortid-mock-super-extra-test"
+        htmlFor="context-switch-super-extra-input-test"
       >
         <input
           checked={false}
-          id="segmented-switch-shortid-mock-super-extra-test"
-          name="segmented-switch-shortid-mock-super-extra-test"
+          id="context-switch-super-extra-input-test"
+          name="context-switch-super-extra-input"
           onChange={[Function]}
           type="radio"
           value="test"
@@ -10829,12 +10831,12 @@ exports[`Storyshots SegmentedSwitch All styles 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="segmented-switch-shortid-mock-super-extra-live"
+        htmlFor="context-switch-super-extra-input-live"
       >
         <input
           checked={false}
-          id="segmented-switch-shortid-mock-super-extra-live"
-          name="segmented-switch-shortid-mock-super-extra-live"
+          id="context-switch-super-extra-input-live"
+          name="context-switch-super-extra-input"
           onChange={[Function]}
           type="radio"
           value="live"
@@ -10847,12 +10849,12 @@ exports[`Storyshots SegmentedSwitch All styles 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="segmented-switch-shortid-mock-super-extra-super-test"
+        htmlFor="context-switch-super-extra-input-super-test"
       >
         <input
           checked={true}
-          id="segmented-switch-shortid-mock-super-extra-super-test"
-          name="segmented-switch-shortid-mock-super-extra-super-test"
+          id="context-switch-super-extra-input-super-test"
+          name="context-switch-super-extra-input"
           onChange={[Function]}
           type="radio"
           value="super-test"
@@ -10865,12 +10867,12 @@ exports[`Storyshots SegmentedSwitch All styles 1`] = `
       </label>
       <label
         className={undefined}
-        htmlFor="segmented-switch-shortid-mock-super-extra-extra-live"
+        htmlFor="context-switch-super-extra-input-extra-live"
       >
         <input
           checked={false}
-          id="segmented-switch-shortid-mock-super-extra-extra-live"
-          name="segmented-switch-shortid-mock-super-extra-extra-live"
+          id="context-switch-super-extra-input-extra-live"
+          name="context-switch-super-extra-input"
           onChange={[Function]}
           type="radio"
           value="extra-live"
@@ -11019,10 +11021,10 @@ exports[`Storyshots TabBar All styles 1`] = `
         className={undefined}
       >
         <h2>
-          Você está em:
-
+          Você está em: 
+           
           Documentação
-
+           
           <svg
             fill="currentColor"
             height="1em"
@@ -11169,10 +11171,10 @@ exports[`Storyshots TabBar All styles 1`] = `
         className={undefined}
       >
         <h2>
-          Você está em:
-
+          Você está em: 
+           
           Documentação
-
+           
           <svg
             fill="currentColor"
             height="1em"
@@ -11316,10 +11318,10 @@ exports[`Storyshots TabBar All styles 1`] = `
         className={undefined}
       >
         <h2>
-          Você está em:
-
+          Você está em: 
+           
           Documentação
-
+           
           <svg
             fill="currentColor"
             height="1em"
@@ -11389,13 +11391,13 @@ exports[`Storyshots Typography Aplicações 1`] = `
     Parágrafo
   </h1>
   <p>
-    Curabitur at finibus neque. In efficitur sapien ut lectus suscipit consequat. Proin eget aliquam leo.
+    Curabitur at finibus neque. In efficitur sapien ut lectus suscipit consequat. Proin eget aliquam leo. 
     <a
       href=""
     >
       Maecenas mattis
     </a>
-      quis nisi vel venenatis. Proin sit amet purus nec magna ornare iaculis. Curabitur at finibus neque. In efficitur sapien ut lectus suscipit consequat. Proin eget aliquam leo. Maecenas mattis quis nisi vel venenatis. Proin sit amet ec
+      quis nisi vel venenatis. Proin sit amet purus nec magna ornare iaculis. Curabitur at finibus neque. In efficitur sapien ut lectus suscipit consequat. Proin eget aliquam leo. Maecenas mattis quis nisi vel venenatis. Proin sit amet ec 
     <a
       href=""
     >

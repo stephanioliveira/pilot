@@ -1,0 +1,2 @@
+import './themeDecorator'
+import './percyIntegration'

@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { themr } from 'react-css-themr'
 
-const applyThemr = themr('UICard')
+import ThemeConsumer from '../ThemeConsumer'
+
+const consumeTheme = ThemeConsumer('UICard')
 
 const CardContent = ({
   className,
@@ -35,4 +36,4 @@ CardContent.defaultProps = {
   className: null,
 }
 
-export default applyThemr(CardContent)
+export default consumeTheme(CardContent)

@@ -3,11 +3,9 @@
 @import "./colors.css";
 
 :root {
-  --headline-font-size: 30px;
-  --display-1-font-size: 36px;
-  --display-2-font-size: 48px;
-  --display-3-font-size: 60px;
-  --display-4-font-size: 72px;
+  --heading-1-font-size: 24px;
+  --heading-2-font-size: 20px;
+  --heading-3-font-size: 18px;
   --caption-font-size: 12px;
   --body-font-size: 16px;
   --blockquote-border-radius: 2px;
@@ -23,73 +21,3 @@
   --body-color: var(--color-light-chromium-100);
 }
 
-/* stylelint-disable */
-body {
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size);
-  color: var(--body-color);
-}
-
-body * {
-  letter-spacing: var(--letter-spacing);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.display,
-.headline {
-  font-family: var(--title-font-family);
-  font-weight: var(--title-font-weight);
-  font-style: var(--title-font-style);
-  color: var(--title-color);
-}
-
-h1 {
-  font-size: 24px;
-  margin: var(--spacing-medium) 0;
-}
-
-h2 {
-  font-size: 20px;
-  margin: var(--spacing-medium) 0;
-}
-
-h3 {
-  font-size: 18px;
-  margin: var(--spacing-small) 0;
-}
-
-p {
-  margin-bottom: 1em;
-}
-
-a {
-  font-weight: bold;
-  color: var(--body-link-color);
-  text-decoration: unset;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-ul,
-ol {
-  padding: 0 var(--spacing-medium);
-}
-
-li {
-  list-style-type: disc;
-}
-
-blockquote {
-  border-radius: var(--blockquote-border-radius);
-  border-left: var(--blockquote-border);
-  padding-left: var(--spacing-small);
-  margin: 0;
-}
-/* stylelint-enable */

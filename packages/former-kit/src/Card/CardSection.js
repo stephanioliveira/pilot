@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import IconArrowDown from 'react-icons/lib/md/keyboard-arrow-down'
-import { themr } from 'react-css-themr'
 
-const applyTheme = themr('UICard')
+import ThemeConsumer from '../ThemeConsumer'
+
+const consumeTheme = ThemeConsumer('UICard')
 
 class CardSection extends Component {
   constructor (props) {
@@ -122,4 +123,4 @@ CardSection.defaultProps = {
   base: 'light',
 }
 
-export default applyTheme(CardSection)
+export default consumeTheme(CardSection)

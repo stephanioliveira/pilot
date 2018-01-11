@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { themr } from 'react-css-themr'
 import {
   func,
   string,
@@ -8,22 +7,26 @@ import {
   oneOfType,
   object,
 } from 'prop-types'
+
 import shortid from 'shortid'
 import { momentObj } from 'react-moment-proptypes'
+
 import {
   DayPickerRangeController,
   DayPickerSingleDateController,
 } from 'react-dates'
+
 import IconArrowLeft from 'react-icons/lib/fa/angle-left'
 import IconArrowRight from 'react-icons/lib/fa/angle-right'
 import 'react-dates/lib/css/_datepicker.css'
 
 import Button from '../Button'
+import ThemeConsumer from '../ThemeConsumer'
 import normalizeDates from './normalizeDates'
 import calculatePreset from './calculatePreset'
 
 const START_DATE = 'startDate'
-const applyThemr = themr('UIDateSelector')
+const consumeTheme = ThemeConsumer('UIDateSelector')
 
 const defaultStrings = {
   cancel: 'cancel',
@@ -273,7 +276,7 @@ class DateSelector extends Component {
     const { theme } = this.props
 
     return (
-      <div className={theme.container}>
+      <div className={theme.dateSelector}>
         {this.renderSidebar()}
         <div className={theme.stage}>
           {this.renderPicker()}
@@ -286,6 +289,7 @@ class DateSelector extends Component {
 
 DateSelector.propTypes = {
   theme: shape({
+    dateSelector: string,
     actions: string,
     selectedDays: string,
     separator: string,
@@ -334,4 +338,4 @@ DateSelector.defaultProps = {
   strings: defaultStrings,
 }
 
-export default applyThemr(DateSelector)
+export default consumeTheme(DateSelector)

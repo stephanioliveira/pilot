@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { themr } from 'react-css-themr'
 
-const applyThemr = themr('UIModal')
+import ThemeConsumer from '../ThemeConsumer'
+
+const consumeTheme = ThemeConsumer('UIModal')
 
 const ModalContent = ({ theme, children }) => (
   <div className={theme.content}>
@@ -17,4 +18,4 @@ ModalContent.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default applyThemr(ModalContent)
+export default consumeTheme(ModalContent)

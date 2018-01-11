@@ -1,0 +1,63 @@
+@import "../typography.css";
+@import "../spacing.css";
+
+.typography {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  color: var(--body-color);
+  letter-spacing: var(--letter-spacing);
+
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-weight);
+    font-style: var(--title-font-style);
+    color: var(--title-color);
+  }
+
+  & h1 {
+    font-size: var(--heading-1-font-size);
+  }
+
+  & h2 {
+    font-size: var(--heading-2-font-size);
+  }
+
+  & h3 {
+    font-size: var(--heading-3-font-size);
+  }
+
+  & p:not(:only-of-type) {
+    margin-bottom: 1em;
+  }
+
+  & a {
+    font-weight: bold;
+    color: var(--body-link-color);
+    text-decoration: unset;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+
+  & ul,
+  & ol {
+    padding: 0 var(--spacing-medium);
+  }
+
+  & li {
+    list-style-type: disc;
+  }
+
+  & blockquote {
+    border-radius: var(--blockquote-border-radius);
+    border-left: var(--blockquote-border);
+    padding-left: var(--spacing-small);
+    margin: 0;
+  }
+}

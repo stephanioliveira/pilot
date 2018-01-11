@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ReactModal from 'react-modal'
-import { themr } from 'react-css-themr'
 
-const applyThemr = themr('UIModal')
+import Typeset from '../Typeset'
+import ThemeConsumer from '../ThemeConsumer'
+
+const consumeTheme = ThemeConsumer('UIModal')
 
 const Modal = ({
   theme,
@@ -19,9 +21,11 @@ const Modal = ({
     className={theme.modal}
     onRequestClose={onRequestClose}
   >
-    <div className={theme.frame}>
-      {children}
-    </div>
+    <Typeset>
+      <div className={theme.frame}>
+        {children}
+      </div>
+    </Typeset>
   </ReactModal>
 )
 
@@ -41,4 +45,4 @@ Modal.defaultProps = {
   onRequestClose: null,
 }
 
-export default applyThemr(Modal)
+export default consumeTheme(Modal)

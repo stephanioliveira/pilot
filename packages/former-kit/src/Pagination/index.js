@@ -35,12 +35,13 @@ import {
 } from 'ramda'
 import classNames from 'classnames'
 import shortid from 'shortid'
-import { themr } from 'react-css-themr'
 
 import ArrowLeft from 'react-icons/lib/md/keyboard-arrow-left'
 import ArrowRight from 'react-icons/lib/md/keyboard-arrow-right'
 
-const applyThemr = themr('UIPagination')
+import ThemeConsumer from '../ThemeConsumer'
+
+const consumeTheme = ThemeConsumer('UIPagination')
 
 const convertToNumber = unless(anyPass([isNil, isEmpty]), Number)
 
@@ -345,4 +346,4 @@ Pagination.propTypes = {
 }
 
 
-export default applyThemr(Pagination)
+export default consumeTheme(Pagination)

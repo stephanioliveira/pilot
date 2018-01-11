@@ -3,48 +3,48 @@
 @import "../colors.css";
 @import "./properties.css";
 
-.container,
-.container * {
+.dateSelector,
+.dateSelector * {
   box-sizing: border-box;
 }
 
-.container {
+.dateSelector {
   display: inline-flex;
   background: var(--date-selector-background);
   border: var(--date-selector-border);
   border-radius: var(--date-selector-border-radius);
   box-shadow: var(--date-selector-box-shadow);
+
+  & .sidebar li,
+  & .sidebar ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  & .sidebar li {
+    margin-top: var(--spacing-small);
+  }
+
+  & .sidebar li:first-child {
+    margin-top: unset;
+  }
+
+  & .sidebar h2 {
+    color: var(--date-selector-sidebar-title-color);
+    font-size: var(--date-selector-sidebar-h2-font-size);
+    font-weight: var(--date-selector-sidebar-h2-font-weight);
+    font-style: var(--date-selector-sidebar-h2-font-style);
+    text-transform: var(--date-selector-sidebar-h2-text-transform);
+    margin: var(--date-selector-sidebar-h2-magin);
+    padding-left: var(--date-selector-sidebar-h2-padding-left);
+  }
 }
 
 .sidebar {
   background-color: var(--date-selector-sidebar-background);
   padding: var(--date-selector-sidebar-padding);
   border-right: var(--date-selector-sidebar-border);
-}
-
-.sidebar h2 {
-  color: var(--date-selector-sidebar-title-color);
-  font-size: var(--date-selector-sidebar-h2-font-size);
-  font-weight: var(--date-selector-sidebar-h2-font-weight);
-  font-style: var(--date-selector-sidebar-h2-font-style);
-  text-transform: var(--date-selector-sidebar-h2-text-transform);
-  margin: var(--date-selector-sidebar-h2-magin);
-  padding-left: var(--date-selector-sidebar-h2-padding-left);
-}
-
-.sidebar li,
-.sidebar ol {
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar li {
-  list-style: none;
-  margin-top: var(--spacing-small);
-}
-
-.sidebar li:first-child {
-  margin-top: unset;
 }
 
 .sidebar input {
@@ -91,7 +91,7 @@
   flex: 1;
   text-align: start;
   color: var(--date-selector-selected-days-color);
-  font-size: vat(--date-selector-selected-days-font-size);
+  font-size: var(--date-selector-selected-days-font-size);
   margin-bottom: var(--date-selector-selected-days-margin-bottom);
 }
 

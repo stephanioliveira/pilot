@@ -1,1 +1,1 @@
-export { default as ThemeProvider } from 'react-css-themr'
+export { ThemeProvider as default } from 'react-css-themr'

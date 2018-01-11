@@ -19,6 +19,7 @@ import UISwitch from './switch/index.css'
 import UITabBar from './tab-bar/index.css'
 import UITag from './tag/index.css'
 import UILinearProgress from './linear-progress/index.css'
+import UITypeset from './typeset/index.css'
 
 export default {
   UIAlert,
@@ -34,6 +35,7 @@ export default {
   UIInput,
   UIInputForm,
   UILegend,
+  UILinearProgress,
   UIModal,
   UIPagination,
   UIRadioGroup,
@@ -41,5 +43,5 @@ export default {
   UISwitch,
   UITabBar,
   UITag,
-  UILinearProgress,
+  UITypeset,
 }

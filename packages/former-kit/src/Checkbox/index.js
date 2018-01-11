@@ -7,9 +7,10 @@ import {
 } from 'prop-types'
 
 import classNames from 'classnames'
-import { themr } from 'react-css-themr'
 
-const applyThemr = themr('UICheckbox')
+import ThemeConsumer from '../ThemeConsumer'
+
+const consumeTheme = ThemeConsumer('UICheckbox')
 
 const Checkbox = ({
   disabled,
@@ -84,4 +85,4 @@ Checkbox.defaultProps = {
   success: '',
 }
 
-export default applyThemr(Checkbox)
+export default consumeTheme(Checkbox)

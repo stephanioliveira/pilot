@@ -15,6 +15,8 @@ import IconClear from 'react-icons/lib/md/clear'
 
 import ThemeConsumer from '../ThemeConsumer'
 
+const consumeTheme = ThemeConsumer('UIAlert')
+
 const icons = {
   success: IconCheck,
   info: IconInfo,
@@ -36,18 +38,16 @@ function Alert ({
   )
 
   return (
-    <ThemeConsumer name="UIAlert">
-      <div className={theme.alert}>
-        {Icon && (
-          <div className={iconClassName}>
-            <Icon />
-          </div>
-        )}
-        <div className={theme.content}>
-          {children}
+    <div className={theme.alert}>
+      {Icon && (
+        <div className={iconClassName}>
+          <Icon />
         </div>
+      )}
+      <div className={theme.content}>
+        {children}
       </div>
-    </ThemeConsumer>
+    </div>
   )
 }
 
@@ -81,4 +81,4 @@ Alert.defaultProps = {
   base: 'light',
 }
 
-export default Alert
+export default consumeTheme(Alert)

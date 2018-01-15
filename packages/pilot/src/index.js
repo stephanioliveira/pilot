@@ -4,11 +4,14 @@ import { ThemeProvider } from 'react-css-themr'
 
 import registerServiceWorker from './registerServiceWorker'
 
-import pagarmeTheme from './theme-pagarme'
+import { Typeset } from 'former-kit'
+import theme from 'former-kit-theme-pagarme'
 
 const App = () => (
-  <ThemeProvider theme={pagarmeTheme}>
-    <h1>Hello world</h1>
+  <ThemeProvider theme={theme}>
+    <Typeset>
+      <h1>Hello world</h1>
+    </Typeset>
   </ThemeProvider>
 )
 

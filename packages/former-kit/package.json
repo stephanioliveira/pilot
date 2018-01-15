@@ -85,6 +85,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "test": "node scripts/test.js",
     "storybook": "start-storybook -p 6006",
     "percy": "build-storybook && percy-storybook --widths=1024,1920; true",
     "build-storybook": "build-storybook",

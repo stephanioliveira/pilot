@@ -1,3 +1,6 @@
 [submodule "packages/former-kit"]
 	path = packages/former-kit
 	url = git@github.com:pagarme/former-kit
+[submodule "packages/skin-pagarme"]
+	path = packages/skin-pagarme
+	url = git@github.com:pagarme/former-kit-skin-pagarme

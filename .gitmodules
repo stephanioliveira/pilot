@@ -1,0 +1,3 @@
+[submodule "packages/former-kit"]
+	path = packages/former-kit
+	url = git@github.com:pagarme/former-kit

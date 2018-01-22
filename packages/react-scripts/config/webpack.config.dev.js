@@ -135,6 +135,9 @@ module.exports = {
               // @remove-on-eject-begin
               baseConfig: {
                 extends: [require.resolve('eslint-config-pagarme-react')],
+                env: {
+                  browser: true,
+                },
               },
               ignore: false,
               useEslintrc: false,

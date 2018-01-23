@@ -1,4 +1,5 @@
 import UIAlert from './alert/index.css'
+import UIAvatar from './avatar/index.css'
 import UIButton from './button/index.css'
 import UICard from './card/index.css'
 import UICheckbox from './checkbox/index.css'
@@ -8,6 +9,7 @@ import UIDateSelector from './date-selector'
 import UIDropdown from './dropdown/index.css'
 import UIDropdownForm from './form-fields/dropdown/index.css'
 import UIGrid from './grid/index.css'
+import UIHeader from './header/index.css'
 import UIInput from './input/index.css'
 import UIInputForm from './form-fields/input/index.css'
 import UILegend from './legend/index.css'
@@ -23,6 +25,7 @@ import UILinearProgress from './linear-progress/index.css'
 
 export default {
   UIAlert,
+  UIAvatar,
   UIButton,
   UICard,
   UICheckbox,
@@ -32,6 +35,7 @@ export default {
   UIDropdown,
   UIDropdownForm,
   UIGrid,
+  UIHeader,
   UIInput,
   UIInputForm,
   UILegend,

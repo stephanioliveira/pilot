@@ -1,9 +1,11 @@
 import '../src/locale'
 
+import './Avatar'
 import './Button'
 import './Card'
 import './Colors'
 import './Alert'
+import './Header'
 import './Switch'
 import './Progress'
 import './Tag'

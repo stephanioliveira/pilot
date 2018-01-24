@@ -5,6 +5,7 @@ import MdVisibilityOff from 'react-icons/lib/md/visibility-off'
 import MdVisibility from 'react-icons/lib/md/visibility'
 import shortid from 'shortid'
 import { pick } from 'ramda'
+import MaskedInput from 'react-maskedinput'
 
 class Input extends React.PureComponent {
   constructor (props) {
@@ -70,6 +71,7 @@ class Input extends React.PureComponent {
       className,
       onChange,
       theme,
+      mask,
     } = this.props
 
     const container = classnames(theme.container, {
@@ -105,6 +107,45 @@ class Input extends React.PureComponent {
 
     const hasLabel = theme.contentPresent && label
 
+    const renderMultilineInput = () => (
+      <textarea
+        rows="1"
+        onChange={disabled ? null : onChange}
+        onBlur={this.handleBlur}
+        onFocus={this.handleFocus}
+        {...inputProps}
+      />
+    )
+
+    const renderSinglelineInput = () => (
+      <input
+        id={this.instanceId}
+        type={inputType}
+        onChange={disabled ? null : onChange}
+        onBlur={this.handleBlur}
+        onFocus={this.handleFocus}
+        {...inputProps}
+      />
+    )
+
+    const renderCommonInput = multiline
+      ? renderMultilineInput : renderSinglelineInput
+
+    const renderMaskedInput = () => (
+      <MaskedInput
+        id={this.instanceId}
+        type={inputType}
+        onChange={disabled ? null : onChange}
+        onBlur={this.handleBlur}
+        onFocus={this.handleFocus}
+        mask={mask}
+        {...inputProps}
+      />
+    )
+
+    const renderInput = mask
+      ? renderMaskedInput : renderCommonInput
+
     return (
       <div className={root}>
         {icon &&
@@ -112,26 +153,7 @@ class Input extends React.PureComponent {
         }
         <div className={theme.boxContainer}>
           <div className={container}>
-            {multiline
-              ? (
-                <textarea
-                  rows="1"
-                  onChange={disabled ? null : onChange}
-                  onBlur={this.handleBlur}
-                  onFocus={this.handleFocus}
-                  {...inputProps}
-                />
-              ) : (
-                <input
-                  id={this.instanceId}
-                  type={inputType}
-                  onChange={disabled ? null : onChange}
-                  onBlur={this.handleBlur}
-                  onFocus={this.handleFocus}
-                  {...inputProps}
-                />
-              )
-            }
+            {renderInput()}
 
             {this.renderPasswordVisibilityIcon()}
             {hasLabel &&
@@ -180,6 +202,7 @@ Input.propTypes = {
   hint: PropTypes.string,
   icon: PropTypes.element,
   label: PropTypes.string,
+  mask: PropTypes.string,
   multiline: PropTypes.bool,
   name: PropTypes.string,
   onChange: PropTypes.func.isRequired,
@@ -196,6 +219,7 @@ Input.defaultProps = {
   hint: '',
   icon: null,
   label: '',
+  mask: null,
   multiline: false,
   name: '',
   placeholder: '',

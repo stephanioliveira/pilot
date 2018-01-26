@@ -238,7 +238,7 @@ module.exports = {
                 options: {
                   importLoaders: 1,
                   modules: true,
-                  localIdentName: '[folder]--[name]',
+                  localIdentName: '[name]--[local]',
                 },
               },
               {

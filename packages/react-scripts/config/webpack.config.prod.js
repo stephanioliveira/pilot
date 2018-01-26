@@ -307,7 +307,7 @@ module.exports = {
                         minimize: true,
                         sourceMap: shouldUseSourceMap,
                         modules: true,
-                        localIdentName: '[folder]--[name]--[hash:8]',
+                        localIdentName: '[name]--[local]--[hash:8]',
                       },
                     },
                     {

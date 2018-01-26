@@ -21,6 +21,7 @@ const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 const postCSSLoaderOptions = require('./postCSSLoaderOptions');
+const cssModulesIgnores = require('./cssModulesIgnores');
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // It requires a trailing slash, or the file assets will get an incorrect path.
@@ -142,7 +143,10 @@ module.exports = {
               // TODO: consider separate config for production,
               // e.g. to enable no-console and no-debugger only in production.
               baseConfig: {
-                extends: [require.resolve('eslint-config-react-app')],
+                extends: [require.resolve('eslint-config-pagarme-react')],
+                env: {
+                  browser: true,
+                },
               },
               ignore: false,
               useEslintrc: false,
@@ -171,7 +175,13 @@ module.exports = {
             options: {
               ...postCSSLoaderOptions,
               plugins: () => [
-                require('stylelint'),
+                require('stylelint', {
+                  // @remove-on-eject-begin
+                  config: {
+                    extends: ['stylelint-config-pagarme-react'],
+                  },
+                  // @remove-on-eject-end
+                }),
                 ...postCSSLoaderOptions.plugins(),
               ],
             },

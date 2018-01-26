@@ -158,7 +158,13 @@ module.exports = {
             options: {
               ...postCSSLoaderOptions,
               plugins: () => [
-                require('stylelint'),
+                require('stylelint', {
+                  // @remove-on-eject-begin
+                  config: {
+                    extends: ['stylelint-config-pagarme-react'],
+                  },
+                  // @remove-on-eject-end
+                }),
                 ...postCSSLoaderOptions.plugins(),
               ],
             },

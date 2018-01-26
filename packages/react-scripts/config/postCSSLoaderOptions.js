@@ -18,7 +18,11 @@ module.exports = {
   ident: 'postcss',
   importLoaders: 1,
   plugins: () => [
+    require('postcss-sass-each'),
+    require('postcss-hexrgba'),
     require('postcss-import'),
+    require('postcss-url')({ url: postcssUrlRebase }),
+    require('postcss-cssnext'),
   ],
 };
 
